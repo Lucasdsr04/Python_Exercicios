@@ -1,6 +1,4 @@
-from sys import breakpointhook
-
-
+#Crie um programa que leia algo pelo teclado e mostre informações acerca do que foi lido 
 x = input('Digite algo: ')
 print('O tipo primitivo é ', type(x))
 print('Só tem espaços? ', x.isspace())
